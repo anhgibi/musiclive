@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Music Live</title>
+</head>
+<body>
+    <div class="app grid">
+        <div class="header">
+        
+            <div class="music-cd">
+            <div class="music-img">
+            </div>
+            <!-- <div class="music-logo"> <img src="./assets/icons/apple-music.png" alt=""> </div> -->
+            </div>
+          <div class="music-heading">
+            <div class="control">
+
+
+                <input id="progress" class="progress"  type="range" value="0" step="1" min="0" max="100"/> 
+                <audio id="audio" src=""></audio>
+
+
+                <div class="body-player">
+                    <div class="player-text">
+                        <div class=" player-header">
+                            <div class="player-content-name">
+                                <h1 class="song-name">
+                                    Có Chắc Yêu Là Đây
+                                </h1>
+                                <h4 class="singer-name">
+                                    <!-- Sơn Tùng M-TP -->
+                                </h4>
+                            </div>
+                        
+                            <div class="player-img">
+                                
+                            </div>
+                            
+                        </div>
+
+                        <div class="control-item ">
+                            <!-- <div class="btn btn-volume">
+                                <i class="fas fa-volume-up"></i>
+                            </div> -->
+                            <div class="btn btn-repeat">
+                                <i class="fas fa-redo"></i>
+                            </div>
+                            <div class="music-toggle ">
+                                <div class="btn btn-prev">
+                                    <i class="fas fa-step-backward"></i>
+                                </div>
+                                <div class="player">
+                                    <div class="btn btn-toggle-play">
+                                        <i class="fas fa-pause icon-pause"></i>
+                                        <i class="fas fa-play icon-play"></i>
+                                    </div>
+                                </div>
+                                <div class="btn btn-next">
+                                    <i class="fas fa-step-forward"></i>
+                                </div>  
+                            </div>
+                            <div class="btn btn-random">
+                                <i class="fas fa-random"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+         </div>
+         </div>
+        <div class="music-content">
+            
+        </div>
+    </div>
+
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
